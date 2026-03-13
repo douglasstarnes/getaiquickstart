@@ -8,7 +8,7 @@ from openai import OpenAI
 
 client = OpenAI(
   base_url="https://models.github.ai/inference",
-  api_token=GH_MODELS_TOKEN
+  api_key=GH_MODELS_TOKEN
 )
 
 with open("customer_service_prompt.txt", "r") as f:
